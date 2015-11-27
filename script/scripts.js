@@ -25,7 +25,7 @@ $(document).ready(function() {
 	});
 	// Make navbar stick to top of page after scrolling below carousel
 	$(window).scroll(function(){
-		console.log($(this).scrollTop());
+		// console.log($(this).scrollTop());
 		if($(this).scrollTop() > headerHeight){
 			mainNav.addClass(mainNavScroll);
 			main.addClass(mainPadding);

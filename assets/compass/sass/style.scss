@@ -75,6 +75,13 @@ body{
 						margin-bottom: 4%;
 						margin-top: 4%;
 					}
+					h3 a{
+						text-decoration: none;
+					}
+					h3 a span img{
+						width: 50px;
+						height: 25px;
+					}
 				}
 			}
 			.row{
@@ -150,6 +157,30 @@ body{
 			#name{
 				margin-bottom:2%;
 				margin-top:2%;
+			}
+		}
+	}
+	#work{
+		padding-bottom: 25px;
+		.container{
+			.row{
+				padding: 25px;
+				.project-results{
+					border:2px solid #ccc;
+					overflow: hidden;
+					margin-bottom: 5%;
+					padding:5%;
+					span{
+						font-weight: bold;
+						font-size: 2em;
+					}
+					height: 370px;
+					.work-img{
+						width:100%;
+						margin-top:20px;
+						margin-bottom: 20px;
+					}
+				}
 			}
 		}
 	}
