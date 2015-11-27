@@ -1,0 +1,161 @@
+/* line 3, ../compass/sass/style.scss */
+body {
+  font-family: 'Lora', serif;
+}
+/* line 6, ../compass/sass/style.scss */
+body header .carousel-caption {
+  margin-bottom: 95px;
+}
+/* line 8, ../compass/sass/style.scss */
+body header .carousel-caption h1 {
+  font-size: 4em;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-shadow: 2px 2px 2px #393939;
+}
+/* line 14, ../compass/sass/style.scss */
+body header .carousel-caption a {
+  color: #fff;
+  text-shadow: 2px 2px 2px #393939;
+  margin-right: 20px;
+}
+/* line 19, ../compass/sass/style.scss */
+body header .carousel-caption .main-callout {
+  display: none;
+}
+/* line 23, ../compass/sass/style.scss */
+body header .carousel-caption h3:first-child {
+  animation-delay: 1s;
+}
+/* line 27, ../compass/sass/style.scss */
+body header .carousel-caption h3:nth-child(2) {
+  animation-delay: 2s;
+}
+/* line 34, ../compass/sass/style.scss */
+body #nav-bar {
+  position: relative;
+  background-color: #000;
+  height: 80px;
+  width: 100%;
+  z-index: 9;
+}
+/* line 40, ../compass/sass/style.scss */
+body #nav-bar ul {
+  text-align: center;
+}
+/* line 43, ../compass/sass/style.scss */
+body #nav-bar li {
+  display: inline-block;
+  padding: 24px 12px;
+}
+/* line 47, ../compass/sass/style.scss */
+body #nav-bar a {
+  font-size: 16px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 55, ../compass/sass/style.scss */
+body #nav-bar .active {
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+/* line 61, ../compass/sass/style.scss */
+body .nav-bar-scrolled {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding-bottom: 12px;
+}
+/* line 70, ../compass/sass/style.scss */
+body #main .container {
+  margin: auto;
+}
+/* line 74, ../compass/sass/style.scss */
+body #main .container .row .col-md-12 h1 {
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+/* line 80, ../compass/sass/style.scss */
+body #main .container .row {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+/* line 84, ../compass/sass/style.scss */
+body #main .container .row .col-xs-4 i {
+  margin-bottom: 5%;
+}
+/* line 87, ../compass/sass/style.scss */
+body #main .container .row .col-xs-4 p {
+  font-weight: bold;
+  font-size: 2em;
+}
+/* line 95, ../compass/sass/style.scss */
+body .padding-main {
+  margin-top: 90px;
+  width: 100%;
+}
+/* line 99, ../compass/sass/style.scss */
+body #first-picture {
+  height: 400px;
+}
+/* line 103, ../compass/sass/style.scss */
+body .cd-fixed-bg {
+  min-height: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 110, ../compass/sass/style.scss */
+body .cd-bg-1 {
+  background-image: url("../../img/tnmountainroad.jpg");
+}
+/* line 113, ../compass/sass/style.scss */
+body .cd-bg-2 {
+  background-image: url("../../img/tnforesttrail.jpg");
+}
+/* line 116, ../compass/sass/style.scss */
+body .inspirational-text {
+  color: white;
+  margin-top: 160px;
+  text-shadow: 2px 2px #000;
+}
+/* line 121, ../compass/sass/style.scss */
+body h2.inspirational-text span {
+  font-size: .5em;
+  color: #ccc;
+}
+/* line 125, ../compass/sass/style.scss */
+body #second-picture {
+  height: 500px;
+}
+/* line 128, ../compass/sass/style.scss */
+body #about {
+  background: #e7e7e7;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+/* line 135, ../compass/sass/style.scss */
+body #about #image-wrapper img {
+  margin-top: 5%;
+}
+/* line 139, ../compass/sass/style.scss */
+body #about #image-wrapper p {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0px;
+  line-height: 1.8em;
+}
+/* line 145, ../compass/sass/style.scss */
+body #about #image-wrapper h2 {
+  background: #e7e7e7;
+  margin: 0px;
+}
+/* line 150, ../compass/sass/style.scss */
+body #about #image-wrapper #name {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}

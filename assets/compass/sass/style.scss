@@ -1,0 +1,156 @@
+@import 'compass/css3';
+
+body{
+	font-family: 'Lora', serif;
+	header{
+		.carousel-caption{
+			margin-bottom: 95px;
+			h1{
+				font-size: 4em;
+				font-family: 'Ubuntu Condensed', sans-serif;
+				text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
+
+			}
+			a{
+				color:#fff;
+				text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
+				margin-right:20px;
+			}
+			.main-callout{
+				display: none;
+			}	
+			
+			h3:first-child {
+			  animation-delay: 1s;
+			}
+
+			h3:nth-child(2) {
+			  animation-delay: 2s;
+			}
+		}
+	}
+	
+
+		#nav-bar{
+			position: relative;
+			background-color: #000;
+			height: 80px;
+			width:100%;	
+			z-index: 9;
+			ul{
+				text-align: center;
+			}
+			li{
+				display: inline-block;
+				padding:24px 12px;
+			}
+			a{
+				font-size: 16px;
+				font-family: 'Ubuntu Condensed', sans-serif;
+				text-decoration: none;
+				font-weight: bold;
+				text-transform: uppercase;
+				color:#fff;
+			}
+			.active{
+				border-top: 2px solid black;
+				padding-top: 10px;
+			}
+				
+		}
+		.nav-bar-scrolled{
+				position: fixed!important;
+				top:0;
+				width: 100%;
+				z-index: 100;
+				padding-bottom: 12px;
+		}
+	
+	#main{
+		.container{
+			margin:auto;
+			.row{
+				.col-md-12{
+					h1{
+						margin-bottom: 4%;
+						margin-top: 4%;
+					}
+				}
+			}
+			.row{
+				margin-top: 4%;
+				margin-bottom: 4%;
+				.col-xs-4{
+					i{
+						margin-bottom: 5%;
+					}
+					p{
+						font-weight: bold;
+						font-size: 2em;
+					}				
+				}
+			}
+		}
+	}	
+	.padding-main{
+			margin-top: 90px;
+			width: 100%;
+	}
+	#first-picture{
+		height: 400px;
+	}
+	
+	.cd-fixed-bg{
+		min-height: 50%;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.cd-bg-1{
+		background-image: url("../../img/tnmountainroad.jpg");
+	}
+	.cd-bg-2{
+		background-image: url("../../img/tnforesttrail.jpg");
+	}
+	.inspirational-text{
+		color:white;
+		margin-top:160px;
+		text-shadow: 2px 2px #000;
+	}
+	h2.inspirational-text span{
+		font-size: .5em;
+		color:#ccc;
+	}
+	#second-picture{
+		height: 500px;
+	}
+	#about{
+		background: #e7e7e7;
+		padding-top:5%;
+		padding-bottom:5%;
+		#image-wrapper{
+			// margin-top:10%;
+			// margin-bottom: 10%;
+			img{
+				margin-top: 5%;
+				
+			}
+			p{
+				font-size: 1.3em;
+				font-weight: bold;
+				margin:0px;
+				line-height: 1.8em;
+			}
+			h2{
+				
+				background: #e7e7e7;
+				margin:0px;
+			}
+			#name{
+				margin-bottom:2%;
+				margin-top:2%;
+			}
+		}
+	}
+}
