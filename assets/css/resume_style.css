@@ -1,0 +1,100 @@
+/* Variables */
+/* line 9, ../compass/sass/resume_style.scss */
+body {
+  padding-bottom: 0;
+  font-family: 'Open Sans', Arial, Tahoma;
+  color: #363636;
+  background-color: #aaa;
+  font-size: 16px;
+}
+
+/* line 17, ../compass/sass/resume_style.scss */
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+/* line 23, ../compass/sass/resume_style.scss */
+hr {
+  background: #000;
+  border: 0;
+  height: 2px;
+  width: 60%;
+}
+
+/* line 29, ../compass/sass/resume_style.scss */
+.primary, strong, h2 {
+  color: #3b5a76;
+}
+
+/* line 32, ../compass/sass/resume_style.scss */
+.container-main {
+  background: #ededed;
+  margin-top: 80px;
+  padding: 0 30px 30px;
+}
+
+/* line 38, ../compass/sass/resume_style.scss */
+header {
+  min-height: 100px;
+  overflow: auto;
+}
+
+/* line 42, ../compass/sass/resume_style.scss */
+header h1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* line 52, ../compass/sass/resume_style.scss */
+.profile-img {
+  width: 180px;
+  display: block;
+  margin: auto;
+  margin-top: -70px;
+}
+
+/* line 58, ../compass/sass/resume_style.scss */
+footer {
+  background-color: #000;
+  min-height: 70px;
+}
+
+/* line 62, ../compass/sass/resume_style.scss */
+footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* line 67, ../compass/sass/resume_style.scss */
+.contact-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+/* line 71, ../compass/sass/resume_style.scss */
+.contact-list li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 75, ../compass/sass/resume_style.scss */
+.col-md-5 .projects {
+  margin-top: 40px;
+}
+
+/* line 78, ../compass/sass/resume_style.scss */
+.media {
+  background-color: #aaa;
+  padding: 15px;
+  border-radius: 6px;
+}

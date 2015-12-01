@@ -1,0 +1,87 @@
+@import 'compass/css3';
+
+/* Variables */
+$primary-color:#3b5a76;
+$background-color:#aaa;
+$text-color:#363636;
+$font:16px;
+
+body{
+	padding-bottom:0px;
+	font-family:'Open Sans', Arial, Tahoma;
+	color:$text-color;
+	background-color:$background-color;
+	font-size:$font;
+}
+.home{
+	margin-top:-25px;
+	color: red;
+}
+
+h2{
+	text-transform:uppercase;
+	font-size:1.5em;
+	font-weight:700;
+	line-height:1.5em;
+}
+hr{
+	background:#000; 
+	border:0; 
+	height:2px;
+	width:60%;
+}
+.primary, strong, h2{
+	color:$primary-color;
+}
+.container-main{
+	background:#ededed;
+	margin-top:80px;
+	padding: 0 30px 30px;
+}
+
+header{
+	min-height:100px;
+	overflow:auto;
+}
+header h1{
+	margin:0;
+	padding:20px 0 0 0;
+	font-size: 2em;
+	font-weight:600;
+	text-transform:uppercase;
+	letter-spacing: -1px;
+	text-align:center;
+	line-height:1.5em;
+}
+
+.profile-img{
+	width:180px;
+	display:block;
+	margin:auto;
+	margin-top:-70px;
+}
+footer{
+	background-color:#000;
+	min-height:70px;
+}
+footer p{
+	color:#fff;
+	text-align:center;
+	padding-top:20px;
+}
+.contact-list li{
+	list-style:none;
+	margin-bottom:10px;
+}
+.contact-list li a:hover{
+	text-decoration:none;
+	color:black;
+}
+.col-md-5 .projects{
+	margin-top:40px;
+}
+.media{
+	background-color:#aaa;
+	padding:15px;
+	border-radius:6px;
+}

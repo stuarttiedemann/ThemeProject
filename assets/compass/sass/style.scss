@@ -75,6 +75,9 @@ body{
 						margin-bottom: 4%;
 						margin-top: 4%;
 					}
+					h3{
+						line-height: 2em;
+					}
 					h3 a{
 						text-decoration: none;
 					}
@@ -165,6 +168,15 @@ body{
 		.container{
 			.row{
 				padding: 25px;
+				.project-heading{
+					background: #e7e7e7;
+					border:2px solid #ccc;
+					padding:2%;
+					h2{
+						margin-top: 10px;
+						margin-bottom: 20px;
+					}
+				}
 				.project-results{
 					border:2px solid #ccc;
 					overflow: hidden;
@@ -183,5 +195,25 @@ body{
 				}
 			}
 		}
+	}
+	#contact{
+		background: #e7e7e7;
+		padding: 5%;
+		border-top:2px solid #ccc;
+		h2{
+			padding-bottom: 5%;
+		}
+		a{
+			text-decoration: none;
+			font-size: 1.5em;
+		}
+	}
+	footer{
+		height: 90px;
+		background: black;
+		color:#ccc;
+		font-size: 1.5em;
+		padding-top: 25px;
+		margin:0px;
 	}
 }
