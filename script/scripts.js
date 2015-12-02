@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	// Initialize Bootstrap Carousel and set slide scroll timer.
     $('.carousel').carousel({
-   		interval: 4000
+   		interval: 6000
   	}) 
     // Fade in writing on first slide
   	var classCheck = $('#first-div').hasClass('active');
@@ -17,12 +17,7 @@ $(document).ready(function() {
 	var mainPadding = 'padding-main';
 	var headerHeight = ($('header').height());
 	var main = $('#main');
-	// console.log(headerHeight);
-
-	$('#nav-bar li a').click(function(){
-		$('.active').removeClass('active');
-		$(this).addClass('active');
-	});
+	
 	// Make navbar stick to top of page after scrolling below carousel
 	$(window).scroll(function(){
 		// console.log($(this).scrollTop());
@@ -36,15 +31,14 @@ $(document).ready(function() {
 	});	
 	
 	// Add jQuery Easing effect for smooth transitions when navmenu is clicked.
-	// $('.page-scroll a').bind('click', function(){
-	// 	var $anchor=$(this);
-	// 	$('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},2000,'easeInOutCirc');
-	// 		event.preventDefault();
-	// 	$('.carousel').carousel({
- //   		interval: 4000
- //  	}) 
-		
-	// });
+	$('.page-scroll a').bind('click', function(){
+		var $anchor=$(this);
+		$('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},2000,'easeInOutCirc');
+			event.preventDefault();
+		$('.carousel').carousel({
+   		interval: 4000
+  		}) 	
+	});
 	// Initialize Wow Animations
 	new WOW().init();
 })
