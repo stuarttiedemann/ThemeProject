@@ -25,7 +25,7 @@ $(document).ready(function() {
 	});
 	// Make navbar stick to top of page after scrolling below carousel
 	$(window).scroll(function(){
-		console.log($(this).scrollTop());
+		// console.log($(this).scrollTop());
 		if($(this).scrollTop() > headerHeight){
 			mainNav.addClass(mainNavScroll);
 			main.addClass(mainPadding);
@@ -36,15 +36,15 @@ $(document).ready(function() {
 	});	
 	
 	// Add jQuery Easing effect for smooth transitions when navmenu is clicked.
-	$('.page-scroll a').bind('click', function(){
-		var $anchor=$(this);
-		$('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},2000,'easeInOutCirc');
-			event.preventDefault();
-		$('.carousel').carousel({
-   		interval: 4000
-  	}) 
+	// $('.page-scroll a').bind('click', function(){
+	// 	var $anchor=$(this);
+	// 	$('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},2000,'easeInOutCirc');
+	// 		event.preventDefault();
+	// 	$('.carousel').carousel({
+ //   		interval: 4000
+ //  	}) 
 		
-	});
+	// });
 	// Initialize Wow Animations
 	new WOW().init();
 })

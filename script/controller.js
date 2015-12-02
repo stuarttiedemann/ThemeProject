@@ -10,5 +10,5 @@ angular.module('myApp',[]).controller('myController',function($scope){
 	$scope.projects.push(new $scope.Project("Yahoo Stocks API","img/work/stocks.png"));
 	$scope.projects.push(new $scope.Project("Weather App API","img/work/WeatherApp.png"));
 	$scope.projects.push(new $scope.Project("Youtube Mockup in Jquery & Angular API","img/work/youtube.png"));
-	console.log("The value of projects is: "+$scope.projects);
+	// console.log("The value of projects is: "+$scope.projects);
 });
