@@ -124,11 +124,11 @@ body .cd-fixed-bg {
 }
 /* line 120, ../compass/sass/style.scss */
 body .cd-bg-1 {
-  background-image: url("../../img/tnmountainroad.jpg");
+  background-image: url("../../img/tnroad2.jpg");
 }
 /* line 123, ../compass/sass/style.scss */
 body .cd-bg-2 {
-  background-image: url("../../img/tnforesttrail.jpg");
+  background-image: url("../../img/tnforesttrail2.jpg");
 }
 /* line 126, ../compass/sass/style.scss */
 body .inspirational-text {
@@ -157,7 +157,7 @@ body #about #image-wrapper img {
 }
 /* line 149, ../compass/sass/style.scss */
 body #about #image-wrapper p {
-  font-size: 1.3em;
+  font-size: 2em;
   font-weight: bold;
   margin: 0px;
   line-height: 1.8em;
