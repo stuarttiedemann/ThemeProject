@@ -151,47 +151,48 @@ body #about {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/* line 145, ../compass/sass/style.scss */
+/* line 146, ../compass/sass/style.scss */
 body #about #image-wrapper img {
   margin-top: 5%;
+  width: 100%;
 }
-/* line 149, ../compass/sass/style.scss */
+/* line 151, ../compass/sass/style.scss */
 body #about #image-wrapper p {
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: bold;
   margin: 0px;
   line-height: 1.8em;
 }
-/* line 155, ../compass/sass/style.scss */
+/* line 157, ../compass/sass/style.scss */
 body #about #image-wrapper h2 {
   background: #e7e7e7;
   margin: 0px;
 }
-/* line 160, ../compass/sass/style.scss */
+/* line 162, ../compass/sass/style.scss */
 body #about #image-wrapper #name {
   margin-bottom: 2%;
   margin-top: 2%;
 }
-/* line 166, ../compass/sass/style.scss */
+/* line 168, ../compass/sass/style.scss */
 body #work {
   padding-bottom: 25px;
 }
-/* line 169, ../compass/sass/style.scss */
+/* line 171, ../compass/sass/style.scss */
 body #work .container .row {
   padding: 25px;
 }
-/* line 171, ../compass/sass/style.scss */
+/* line 173, ../compass/sass/style.scss */
 body #work .container .row .project-heading {
   background: #e7e7e7;
   border: 2px solid #ccc;
   padding: 2%;
 }
-/* line 175, ../compass/sass/style.scss */
+/* line 177, ../compass/sass/style.scss */
 body #work .container .row .project-heading h2 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 180, ../compass/sass/style.scss */
+/* line 182, ../compass/sass/style.scss */
 body #work .container .row .project-results {
   border: 2px solid #ccc;
   overflow: hidden;
@@ -199,33 +200,38 @@ body #work .container .row .project-results {
   padding: 5%;
   height: 370px;
 }
-/* line 185, ../compass/sass/style.scss */
+/* line 187, ../compass/sass/style.scss */
 body #work .container .row .project-results span {
   font-weight: bold;
   font-size: 2em;
 }
-/* line 190, ../compass/sass/style.scss */
+/* line 192, ../compass/sass/style.scss */
 body #work .container .row .project-results .work-img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 199, ../compass/sass/style.scss */
+/* line 201, ../compass/sass/style.scss */
 body #contact {
   background: #e7e7e7;
   padding: 5%;
   border-top: 2px solid #ccc;
 }
-/* line 203, ../compass/sass/style.scss */
+/* line 205, ../compass/sass/style.scss */
+body #contact img {
+  width: 100%;
+  margin-top: 8%;
+}
+/* line 209, ../compass/sass/style.scss */
 body #contact h2 {
   padding-bottom: 5%;
 }
-/* line 206, ../compass/sass/style.scss */
+/* line 212, ../compass/sass/style.scss */
 body #contact a {
   text-decoration: none;
   font-size: 1.5em;
 }
-/* line 211, ../compass/sass/style.scss */
+/* line 217, ../compass/sass/style.scss */
 body footer {
   height: 90px;
   background: black;
