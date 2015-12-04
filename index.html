@@ -35,7 +35,7 @@
 			</div>
 			<div id="second-div" class="item">
 				<!-- Set the second background image using inline CSS below. -->
-				<div class="fill" style="background-image:url('img/profile5.jpg');"></div>
+				<div class="fill" style="background-image:url('img/laptop2.jpg');"></div>
 				<div class="carousel-caption">
 					<h1 class="animated fadeInDownBig main-callout2">Stuart Tiedemann</h1>
 					<h1 class="animated fadeInUpBig main-callout2">Web Developer and travel enthusiast.</h1>
@@ -112,8 +112,12 @@
 	</section>
 	<section id="about"class="text-center">
 		<div id="image-wrapper">
-			<h2>A little about me...</h2>
-			<img id="about-profile" src="img/profile5.jpg">
+			<div class="row">
+				<div class="col-xs-6 col-xs-offset-3">
+					<h2>A little about me...</h2>
+					<img id="about-profile" src="img/profile5.jpg">
+				</div>
+			</div>
 			<h2 id="name">Stuart Tiedemann</h2>
 			<p>My wife and I live in Santa Rosa Beach, Fl in the panhandle near Destin.  <br>We have lived here since 2009 and enjoy being in an area that offers so many outdoor activities</p>
 			<p>I have a degree in Electrical Engineering Technology(BSEET).  <br>And worked as an Electrical Engineer for four years. My main responsibilities involved troubleshooting <br>and programming PLC's and other industrial controls.</p>
@@ -138,10 +142,12 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-4 text-center" ng-repeat="project in projects">
-					<div class="project-results">
-						<span>{{project.title}}</span>
-						<img class="work-img" ng-src="{{project.image}}">
-					</div>
+					<a href="{{project.link}}">
+						<div class="project-results">
+							<span>{{project.title}}</span>
+							<img class="work-img" ng-src="{{project.image}}">
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -156,7 +162,7 @@
 				<h2>Contact Info:</h2>
 				<div class="contact-list">
 					<p><i class="fa fa-phone-square fa-3x"></i><a href="tel:18504604835"> (850)-460-4835</a></p>
-					<p><i class="fa fa-envelope fa-3x"></i><a href="mailto:stuarttiedemann@yahoo.com"> Email Me</a></p>
+					<p><i class="fa fa-envelope fa-3x"></i><a href="mailto:hireme@stuarttiedemann.com"> Email Me</a></p>
 					<p><i class="fa fa-github-square fa-3x"></i><a href="https://github.com/stuarttiedemann">   GitHub</a></p>
 					<p><i class="fa fa-linkedin-square fa-3x"></i><a href="https://www.linkedin.com/pub/stuart-tiedemann/a3/353/a31">   LinkedIn</a></p>
 				</div>
