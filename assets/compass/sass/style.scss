@@ -137,8 +137,9 @@ body{
 	}
 	#about{
 		background: #e7e7e7;
-		padding-top:5%;
+		padding-top:11%;
 		padding-bottom:5%;
+
 
 		#image-wrapper{
 			// margin-top:10%;
@@ -169,6 +170,7 @@ body{
 		}
 	}
 	#work{
+		padding-top:10%;
 		padding-bottom: 25px;
 		.container{
 			.row{
@@ -191,7 +193,7 @@ body{
 						font-weight: bold;
 						font-size: 2em;
 					}
-					height: 370px;
+					height: 50vh;
 					.work-img{
 						width:100%;
 						margin-top:20px;
@@ -203,7 +205,7 @@ body{
 	}
 	#contact{
 		background: #e7e7e7;
-		padding: 5%;
+		padding: 10% 5% 5% 5%;
 		border-top:2px solid #ccc;
 		img{
 			width: 100%;
