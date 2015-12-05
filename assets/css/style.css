@@ -169,30 +169,34 @@ body #about #image-wrapper h2 {
   margin: 0px;
 }
 /* line 162, ../compass/sass/style.scss */
-body #about #image-wrapper #name {
+body #about #image-wrapper #about-content {
+  padding: 5% 20%;
+}
+/* line 164, ../compass/sass/style.scss */
+body #about #image-wrapper #about-content #name {
   margin-bottom: 2%;
   margin-top: 2%;
 }
-/* line 168, ../compass/sass/style.scss */
+/* line 171, ../compass/sass/style.scss */
 body #work {
   padding-bottom: 25px;
 }
-/* line 171, ../compass/sass/style.scss */
+/* line 174, ../compass/sass/style.scss */
 body #work .container .row {
   padding: 25px;
 }
-/* line 173, ../compass/sass/style.scss */
+/* line 176, ../compass/sass/style.scss */
 body #work .container .row .project-heading {
   background: #e7e7e7;
   border: 2px solid #ccc;
   padding: 2%;
 }
-/* line 177, ../compass/sass/style.scss */
+/* line 180, ../compass/sass/style.scss */
 body #work .container .row .project-heading h2 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 182, ../compass/sass/style.scss */
+/* line 185, ../compass/sass/style.scss */
 body #work .container .row .project-results {
   border: 2px solid #ccc;
   overflow: hidden;
@@ -200,38 +204,38 @@ body #work .container .row .project-results {
   padding: 5%;
   height: 370px;
 }
-/* line 187, ../compass/sass/style.scss */
+/* line 190, ../compass/sass/style.scss */
 body #work .container .row .project-results span {
   font-weight: bold;
   font-size: 2em;
 }
-/* line 192, ../compass/sass/style.scss */
+/* line 195, ../compass/sass/style.scss */
 body #work .container .row .project-results .work-img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 201, ../compass/sass/style.scss */
+/* line 204, ../compass/sass/style.scss */
 body #contact {
   background: #e7e7e7;
   padding: 5%;
   border-top: 2px solid #ccc;
 }
-/* line 205, ../compass/sass/style.scss */
+/* line 208, ../compass/sass/style.scss */
 body #contact img {
   width: 100%;
   margin-top: 8%;
 }
-/* line 209, ../compass/sass/style.scss */
+/* line 212, ../compass/sass/style.scss */
 body #contact h2 {
   padding-bottom: 5%;
 }
-/* line 212, ../compass/sass/style.scss */
+/* line 215, ../compass/sass/style.scss */
 body #contact a {
   text-decoration: none;
   font-size: 1.5em;
 }
-/* line 217, ../compass/sass/style.scss */
+/* line 220, ../compass/sass/style.scss */
 body footer {
   height: 90px;
   background: black;
