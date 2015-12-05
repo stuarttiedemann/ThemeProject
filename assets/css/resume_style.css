@@ -60,39 +60,40 @@ header h1 {
   display: block;
   margin: auto;
   margin-top: -70px;
+  border-radius: 100px;
 }
 
-/* line 58, ../compass/sass/resume_style.scss */
+/* line 59, ../compass/sass/resume_style.scss */
 footer {
   background-color: #000;
   min-height: 70px;
 }
 
-/* line 62, ../compass/sass/resume_style.scss */
+/* line 63, ../compass/sass/resume_style.scss */
 footer p {
   color: #fff;
   text-align: center;
   padding-top: 20px;
 }
 
-/* line 67, ../compass/sass/resume_style.scss */
+/* line 68, ../compass/sass/resume_style.scss */
 .contact-list li {
   list-style: none;
   margin-bottom: 10px;
 }
 
-/* line 71, ../compass/sass/resume_style.scss */
+/* line 72, ../compass/sass/resume_style.scss */
 .contact-list li a:hover {
   text-decoration: none;
   color: black;
 }
 
-/* line 75, ../compass/sass/resume_style.scss */
+/* line 76, ../compass/sass/resume_style.scss */
 .col-md-5 .projects {
   margin-top: 40px;
 }
 
-/* line 78, ../compass/sass/resume_style.scss */
+/* line 79, ../compass/sass/resume_style.scss */
 .media {
   background-color: #aaa;
   padding: 15px;
