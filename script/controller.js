@@ -11,6 +11,6 @@ angular.module('myApp',[]).controller('myController',function($scope){
 	$scope.projects.push(new $scope.Project("House Listings in Angular","img/work/houselistingangular.png","http://houselistingsinangular.bitballoon.com"));
 	$scope.projects.push(new $scope.Project("Yahoo Stocks API","img/work/stocks.png","http://stuarttiedemann.com/angular-stocks"));
 	$scope.projects.push(new $scope.Project("Weather App API","img/work/WeatherApp.png","http://weatherapi.bitballoon.com/"));
-	$scope.projects.push(new $scope.Project("Youtube Mockup in Jquery & Angular API","img/work/youtube.png","http://stuarttiedemann.com/YouTube--master/"));
+	
 	
 });
