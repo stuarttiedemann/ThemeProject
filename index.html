@@ -63,24 +63,23 @@
 	<div id="nav-bar">
 		<ul>
 			<li class="page-scroll"><a href="#page-top">Home</a></li>
-			<li class="page-scroll"><a href="#about">About</a></li>
 			<li class="page-scroll"><a href="#work">Work</a></li>
+			<li class="page-scroll"><a href="#about">About</a></li>
 			<li class="page-scroll"><a href="resume.html">Resume</a></li>
-			<li class="page-scroll"><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
 
 	<section id="main" class="cd-scrolling-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center wow zoomIn" data-wow-duration="2s">
+				<div class="col-md-12 text-center">
 					<h1>Web Development Skills & <span>Projects</span></h1>
 					<h3>As a student of <a href="http://www.digitalcrafts.com/">DigitalCrafts <span><img src="img/DigitalCrafts-Logo-Wrench.png"></span></a> 16 Week Immersive Bootcamp, <br>I am working to master the art of web development<br> and become a "Builder of Things."</h3>
 					<h3>Below are a few of the skills I have acquired.</h3>
 				</div>
 			</div>
 			<div class="row text-center skills">
-				<div class="col-xs-4 wow slideInLeft" data-wow-duration="4s">
+				<div id="left-skills" class="col-xs-4 wow fadeInLeft" data-wow-duration="4s">
 					<i class="fa fa-html5 fa fa-5x"></i>
 					<p>HTML5</p>
 					<p>CSS3</p>
@@ -93,7 +92,7 @@
 					<p>JqueryUI</p>
 					<p>Angular.js</p>
 				</div>
-				<div class="col-xs-4 wow slideInRight" data-wow-duration="4s">
+				<div class="col-xs-4 wow fadeInRight" data-wow-duration="4s">
 					<i class="fa fa-tachometer fa fa-5x"></i>
 					<p>Responsive Design</p>
 					<p>Bootstrap</p>
@@ -107,29 +106,6 @@
 		<div class="first-picture-area">
 			<div class="container text-center">
 				<h2 class="inspirational-text">Still round the corner there may wait,<br> A new road or a secret gate.<br><span> by J.R.R. Tolkien</span></h2>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="text-center">
-		<div id="image-wrapper">
-			<div class="row">
-				<div class="col-xs-6 col-xs-offset-3">
-					<h2>A little about me...</h2>
-					<img id="about-profile" src="img/profile5.jpg">
-				</div>
-			</div>
-			<div id="about-content">
-				<h2 id="name">Stuart Tiedemann</h2>
-				<p>My wife and I live in Santa Rosa Beach, Florida, in the panhandle, near Destin. We have lived here since 2009 and enjoy being in an area that offers so many outdoor activities.
-				I have a degree in Electrical Engineering Technology(BSEET), and worked as an Electrical Engineer for four years. My main responsibilities involved troubleshooting and programming PLC's and other industrial controls.I have also worked in finance as a professional trader for twelve years with several different firms and worked from a remote home office for nine years.
-				Currently I'm working as a web developer and would love to help you with your project. See my resume for more details on my skill set and past experience.</p>
-			</div>
-		</div>
-	</section>
-	<section id="second-picture" class="cd-fixed-bg cd-bg-2">
-		<div class="second-picture-area">
-			<div class="container text-center">
-				<h2 class="inspirational-text">Three steps to success.<br><br> Dream.<br><br> Believe.<br><br> Achieve.<br><br></h2>
 			</div>
 		</div>
 	</section>
@@ -153,27 +129,38 @@
 			</div>
 		</div>
 	</section>
-	<section id="contact">
-		<class="container">
-		<div class="row">
-			<div class=" col-md-4">
-				<img src="img/laptop.jpg" width="287" height="191">
-			</div>
-			<div class="col-xs-6 col-xs-offset-4 col-md-3 col-md-offset-1" >
-				<h2>Contact Info:</h2>
-				<div class="contact-list">
-					<p><i class="fa fa-phone-square fa-3x"></i><a href="tel:18504604835"> (850)-460-4835</a></p>
-					<p><i class="fa fa-envelope fa-3x"></i><a href="mailto:hireme@stuarttiedemann.com"> Email Me</a></p>
-					<p><i class="fa fa-github-square fa-3x"></i><a href="https://github.com/stuarttiedemann">   GitHub</a></p>
-					<p><i class="fa fa-linkedin-square fa-3x"></i><a href="https://www.linkedin.com/pub/stuart-tiedemann/a3/353/a31">   LinkedIn</a></p>
-				</div>
-			</div>
-			<div class=" col-md-4">
-				<img src="img/desktop.jpg" width="287" height="191">
+	<section id="second-picture" class="cd-fixed-bg cd-bg-2">
+		<div class="second-picture-area">
+			<div class="container text-center">
+				<h2 class="inspirational-text">Three steps to success.<br><br> Dream.<br><br> Believe.<br><br> Achieve.<br><br></h2>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+	<section id="about" class="text-center">
+		<div id="image-wrapper">
+			<h2>A little about me...</h2>
+			<div class="row">
+				<div class="col-xs-3">		
+					<img id="about-profile" src="img/profile5.jpg">
+				</div>
+				<div class="col-xs-6">
+					<div id="about-content">		
+						<p>I have a degree in Electrical Engineering Technology(BSEET), and worked as an Electrical Engineer for four years. My main responsibilities involved troubleshooting and programming PLC's and other industrial controls.I have also worked in finance as a professional trader for twelve years with several different firms. Currently I'm working as a web developer and would love to help you with your project. See my resume for more details on my skill set and past experience.</p>
+					</div>
+				</div>
+				<div class="col-xs-3 text-left" >
+					<h2>Contact Info:</h2>
+					<div class="contact-list">
+						<p><a href="tel:18504604835"><i class="fa fa-phone-square fa-3x"></i> (850)-460-4835</a></p>
+						<p><a href="mailto:hireme@stuarttiedemann.com"><i class="fa fa-envelope fa-3x"></i> Email Me</a></p>
+						<p><a href="https://github.com/stuarttiedemann"><i class="fa fa-github-square fa-3x"></i>   GitHub</a></p>
+						<p><a href="https://www.linkedin.com/pub/stuart-tiedemann/a3/353/a31"><i class="fa fa-linkedin-square fa-3x"></i>   LinkedIn</a></p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
 <footer class="text-center">
 	<p> &copy;2015 Stuart Tiedemann All Rights Reserved</p>
 </footer>
