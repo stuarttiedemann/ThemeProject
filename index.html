@@ -142,8 +142,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-md-4 text-center" ng-repeat="project in projects">
-					<a href="{{project.link}}">
+				<div class="project-div col-xs-6 col-md-4 text-center" ng-repeat="project in projects">
+					<a href="{{project.link}}" target="blank" class="project-link">
 						<div class="project-results">
 							<span>{{project.title}}</span>
 							<img class="work-img" ng-src="{{project.image}}" width="245" height="245">

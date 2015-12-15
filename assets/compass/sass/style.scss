@@ -184,21 +184,30 @@ body{
 						margin-bottom: 20px;
 					}
 				}
-				.project-results{
-					border:2px solid #ccc;
-					overflow: hidden;
-					margin-bottom: 5%;
-					padding:5%;
-					span{
-						font-weight: bold;
-						font-size: 2em;
+				.project-div{
+					opacity: .6;
+					.project-link{
+						text-decoration: none;
+						.project-results{
+							border:2px solid #ccc;
+							overflow: hidden;
+							margin-bottom: 5%;
+							padding:5%;
+							span{
+								font-weight: bold;
+								font-size: 2em;
+							}
+							height: 50vh;
+							.work-img{
+								width:100%;
+								margin-top:20px;
+								margin-bottom: 20px;
+							}
+						}
 					}
-					height: 50vh;
-					.work-img{
-						width:100%;
-						margin-top:20px;
-						margin-bottom: 20px;
-					}
+				}
+				.project-div:hover{
+					opacity:1;
 				}
 			}
 		}

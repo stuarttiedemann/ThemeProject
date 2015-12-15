@@ -8,7 +8,13 @@ body {
   font-size: 16px;
 }
 
-/* line 17, ../compass/sass/resume_style.scss */
+/* line 16, ../compass/sass/resume_style.scss */
+.home a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 20, ../compass/sass/resume_style.scss */
 h2 {
   text-transform: uppercase;
   font-size: 1.5em;
@@ -16,7 +22,7 @@ h2 {
   line-height: 1.5em;
 }
 
-/* line 23, ../compass/sass/resume_style.scss */
+/* line 26, ../compass/sass/resume_style.scss */
 hr {
   background: #000;
   border: 0;
@@ -24,25 +30,25 @@ hr {
   width: 60%;
 }
 
-/* line 29, ../compass/sass/resume_style.scss */
+/* line 32, ../compass/sass/resume_style.scss */
 .primary, strong, h2 {
   color: #3b5a76;
 }
 
-/* line 32, ../compass/sass/resume_style.scss */
+/* line 35, ../compass/sass/resume_style.scss */
 .container-main {
   background: #ededed;
   margin-top: 80px;
   padding: 0 30px 30px;
 }
 
-/* line 38, ../compass/sass/resume_style.scss */
+/* line 41, ../compass/sass/resume_style.scss */
 header {
   min-height: 100px;
   overflow: auto;
 }
 
-/* line 42, ../compass/sass/resume_style.scss */
+/* line 45, ../compass/sass/resume_style.scss */
 header h1 {
   margin: 0;
   padding: 20px 0 0 0;
@@ -54,7 +60,7 @@ header h1 {
   line-height: 1.5em;
 }
 
-/* line 52, ../compass/sass/resume_style.scss */
+/* line 55, ../compass/sass/resume_style.scss */
 .profile-img {
   width: 180px;
   display: block;
@@ -63,37 +69,37 @@ header h1 {
   border-radius: 100px;
 }
 
-/* line 59, ../compass/sass/resume_style.scss */
+/* line 62, ../compass/sass/resume_style.scss */
 footer {
   background-color: #000;
   min-height: 70px;
 }
 
-/* line 63, ../compass/sass/resume_style.scss */
+/* line 66, ../compass/sass/resume_style.scss */
 footer p {
   color: #fff;
   text-align: center;
   padding-top: 20px;
 }
 
-/* line 68, ../compass/sass/resume_style.scss */
+/* line 71, ../compass/sass/resume_style.scss */
 .contact-list li {
   list-style: none;
   margin-bottom: 10px;
 }
 
-/* line 72, ../compass/sass/resume_style.scss */
+/* line 75, ../compass/sass/resume_style.scss */
 .contact-list li a:hover {
   text-decoration: none;
   color: black;
 }
 
-/* line 76, ../compass/sass/resume_style.scss */
+/* line 79, ../compass/sass/resume_style.scss */
 .col-md-5 .projects {
   margin-top: 40px;
 }
 
-/* line 79, ../compass/sass/resume_style.scss */
+/* line 82, ../compass/sass/resume_style.scss */
 .media {
   background-color: #aaa;
   padding: 15px;

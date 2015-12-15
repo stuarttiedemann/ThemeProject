@@ -13,7 +13,10 @@ body{
 	background-color:$background-color;
 	font-size:$font;
 }
-
+.home a{
+	text-decoration: none;
+	color:white;
+}
 h2{
 	text-transform:uppercase;
 	font-size:1.5em;

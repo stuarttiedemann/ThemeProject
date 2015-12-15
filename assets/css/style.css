@@ -198,45 +198,57 @@ body #work .container .row .project-heading h2 {
   margin-bottom: 20px;
 }
 /* line 187, ../compass/sass/style.scss */
-body #work .container .row .project-results {
+body #work .container .row .project-div {
+  opacity: .6;
+}
+/* line 189, ../compass/sass/style.scss */
+body #work .container .row .project-div .project-link {
+  text-decoration: none;
+}
+/* line 191, ../compass/sass/style.scss */
+body #work .container .row .project-div .project-link .project-results {
   border: 2px solid #ccc;
   overflow: hidden;
   margin-bottom: 5%;
   padding: 5%;
   height: 50vh;
 }
-/* line 192, ../compass/sass/style.scss */
-body #work .container .row .project-results span {
+/* line 196, ../compass/sass/style.scss */
+body #work .container .row .project-div .project-link .project-results span {
   font-weight: bold;
   font-size: 2em;
 }
-/* line 197, ../compass/sass/style.scss */
-body #work .container .row .project-results .work-img {
+/* line 201, ../compass/sass/style.scss */
+body #work .container .row .project-div .project-link .project-results .work-img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 206, ../compass/sass/style.scss */
+/* line 209, ../compass/sass/style.scss */
+body #work .container .row .project-div:hover {
+  opacity: 1;
+}
+/* line 215, ../compass/sass/style.scss */
 body #contact {
   background: #e7e7e7;
   padding: 10% 5% 5% 5%;
   border-top: 2px solid #ccc;
 }
-/* line 210, ../compass/sass/style.scss */
+/* line 219, ../compass/sass/style.scss */
 body #contact img {
   width: 100%;
   margin-top: 8%;
 }
-/* line 214, ../compass/sass/style.scss */
+/* line 223, ../compass/sass/style.scss */
 body #contact h2 {
   padding-bottom: 5%;
 }
-/* line 217, ../compass/sass/style.scss */
+/* line 226, ../compass/sass/style.scss */
 body #contact a {
   text-decoration: none;
   font-size: 1.5em;
 }
-/* line 222, ../compass/sass/style.scss */
+/* line 231, ../compass/sass/style.scss */
 body footer {
   height: 90px;
   background: black;
