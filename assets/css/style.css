@@ -186,35 +186,44 @@ body #about #image-wrapper #about-content #name {
   margin-bottom: 2%;
   margin-top: 2%;
 }
-/* line 179, ../compass/sass/style.scss */
+/* line 177, ../compass/sass/style.scss */
+body #about #image-wrapper .contact-list a {
+  color: black;
+  text-decoration: none;
+}
+/* line 181, ../compass/sass/style.scss */
+body #about #image-wrapper .contact-list a:hover {
+  color: #aaa;
+}
+/* line 186, ../compass/sass/style.scss */
 body #work {
   padding-top: 10%;
   padding-bottom: 25px;
 }
-/* line 183, ../compass/sass/style.scss */
+/* line 190, ../compass/sass/style.scss */
 body #work .container .row {
   padding: 25px;
 }
-/* line 185, ../compass/sass/style.scss */
+/* line 192, ../compass/sass/style.scss */
 body #work .container .row .project-heading {
   background: #e7e7e7;
   border: 2px solid #ccc;
   padding: 2%;
 }
-/* line 189, ../compass/sass/style.scss */
+/* line 196, ../compass/sass/style.scss */
 body #work .container .row .project-heading h2 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 194, ../compass/sass/style.scss */
+/* line 201, ../compass/sass/style.scss */
 body #work .container .row .project-div {
   opacity: .6;
 }
-/* line 196, ../compass/sass/style.scss */
+/* line 203, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link {
   text-decoration: none;
 }
-/* line 198, ../compass/sass/style.scss */
+/* line 205, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link .project-results {
   border: 2px solid #ccc;
   overflow: hidden;
@@ -222,22 +231,22 @@ body #work .container .row .project-div .project-link .project-results {
   padding: 5%;
   height: 50vh;
 }
-/* line 203, ../compass/sass/style.scss */
+/* line 210, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link .project-results span {
   font-weight: bold;
   font-size: 2em;
 }
-/* line 208, ../compass/sass/style.scss */
+/* line 215, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link .project-results .work-img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 216, ../compass/sass/style.scss */
+/* line 223, ../compass/sass/style.scss */
 body #work .container .row .project-div:hover {
   opacity: 1;
 }
-/* line 222, ../compass/sass/style.scss */
+/* line 229, ../compass/sass/style.scss */
 body footer {
   height: 90px;
   background: black;
