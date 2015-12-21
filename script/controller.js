@@ -6,6 +6,7 @@ angular.module('myApp',[]).controller('myController',function($scope){
 		this.tooltip = tooltip
 	}
 	$scope.projects=[];
+	$scope.projects.push(new $scope.Project("Nodejs Coffee Ecommerce Site","img/work/coffeesite.png","http://stuartscoffee.herokuapp.com/#","An ecommerce site using Nodejs and Mongo db."))
 	$scope.projects.push(new $scope.Project("Google Maps API","img/work/googlemaps.png","http://googlemapsapi.bitballoon.com/","Use Google Maps API to find directions, lodging, and grocery stores for a selected location."));
 	$scope.projects.push(new $scope.Project("Plane Routes Angular & Google Maps API","img/work/planeroutes.png","http://stuarttiedemann.com/planeroutes/#/","A project that uses AngularJS and Google Maps API to visually show the flight range of various planes from a selected departure point."));
 	$scope.projects.push(new $scope.Project("Open Movie Database API","img/work/openmoviedatabase.png","http://openmoviedatabase.bitballoon.com", "A project showing the most popular movies using the openmoviedatabase API.  User can also search for movies and actors"));
