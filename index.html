@@ -118,11 +118,11 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="project-div col-xs-6 col-md-4 text-center" ng-repeat="project in projects">
+				<div class="project-div col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center" ng-repeat="project in projects">
 					<a href="{{project.link}}" target="blank" class="project-link">
-						<div class="project-results">
+						<div class="project-results" data-toggle="tooltip" data-placement="left" title="{{project.tooltip}}">
 							<span>{{project.title}}</span>
-							<img class="work-img" ng-src="{{project.image}}" width="245" height="245">
+							<img class="work-img img-responsive" ng-src="{{project.image}}" width="245" height="245">
 						</div>
 					</a>
 				</div>
@@ -140,15 +140,15 @@
 		<div id="image-wrapper">
 			<h2>A little about me...</h2>
 			<div class="row">
-				<div class="col-xs-3">		
+				<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0 col-md-3">		
 					<img id="about-profile" src="img/profile5.jpg">
 				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div id="about-content">		
-						<p>I have a degree in Electrical Engineering Technology(BSEET), and worked as an Electrical Engineer for four years. My main responsibilities involved troubleshooting and programming PLC's and other industrial controls.I have also worked in finance as a professional trader for twelve years with several different firms. Currently I'm working as a web developer and would love to help you with your project. See my resume for more details on my skill set and past experience.</p>
+						<p>I have a degree in Electrical Engineering Technology(BSEET), and worked as an Electrical Engineer for four years. My main responsibilities involved troubleshooting and programming PLC's and other industrial controls.  I have also worked in finance as a professional trader for twelve years with several different firms. Currently I'm working as a web developer and would love to help you with your project. See my resume for more details on my skill set and past experience.</p>
 					</div>
 				</div>
-				<div class="col-xs-3 text-left" >
+				<div class="col-xs-6 col-xs-offset-4 col-sm-3 col-sm-offset-0 col-md-3 text-left" >
 					<h2>Contact Info:</h2>
 					<div class="contact-list">
 						<p><a href="tel:18504604835"><i class="fa fa-phone-square fa-3x"></i> (850)-460-4835</a></p>

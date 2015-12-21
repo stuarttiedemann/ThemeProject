@@ -151,9 +151,8 @@ body{
 			// margin-top:10%;
 			// margin-bottom: 10%;
 			img{
-				margin-top: 10%;
-				margin-left: 5%;
-				width: 100%;
+				margin: 10% auto;
+				max-width: 100%;
 				
 			}
 			p{
@@ -185,17 +184,17 @@ body{
 	}
 	#work{
 		padding-top:10%;
-		padding-bottom: 25px;
+		padding-bottom: 2%;
 		.container{
 			.row{
-				padding: 25px;
+				padding: 2%;
 				.project-heading{
 					background: #e7e7e7;
 					border:2px solid #ccc;
 					padding:2%;
 					h2{
-						margin-top: 10px;
-						margin-bottom: 20px;
+						margin-top: 1%;
+						margin-bottom: 2%;
 					}
 				}
 				.project-div{
@@ -211,7 +210,7 @@ body{
 								font-weight: bold;
 								font-size: 2em;
 							}
-							height: 50vh;
+							height: 250px;
 							.work-img{
 								width:100%;
 								margin-top:20px;
@@ -233,5 +232,34 @@ body{
 		font-size: 1.5em;
 		padding-top: 25px;
 		margin:0px;
+	}
+}
+@media screen and (max-width:500px){
+	body #nav-bar li{
+		padding:24px 18px;
+	}
+	body #main{
+		.container .row .col-md-12 h3{
+			line-height: 1.5em;
+		}
+		.container .row .col-xs-4 i{
+			font-size:3.4em;
+			
+		}
+		.container .row .col-xs-4 p{
+			font-size:1.4em;
+			line-height: 1em;
+		}
+	}
+	body #about #image-wrapper{
+		#about-content p{
+			line-height: 1.3em;
+		}
+		.contact-list{
+			p{
+				font-size: 1em;
+
+			}
+		}
 	}
 }
