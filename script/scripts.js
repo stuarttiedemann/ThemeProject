@@ -1,5 +1,37 @@
+$(window).load(function(){
+	var carouselHeight = $('#myCarousel').height();
+	var navBarHeight = $('#nav-bar').height();
+	var skillsHeight = $('#main').height()+carouselHeight;
+	var firstPictureHeight = $('#first-picture').height();
+	var secondPictureHeight = $('#second-picture').height();
+	var workHeight = $('#work').height()+skillsHeight+firstPictureHeight;
+	var aboutHeight = $('#about').height()+workHeight+secondPictureHeight;
+
+	console.log(aboutHeight);
+	// Add active class to nav elements.
+	$(window).scroll(function(){
+        if(($(this).scrollTop() >= 0) && ($(this).scrollTop() < carouselHeight)){
+            $('#homenav').addClass('activenav');
+            $('#skillsnav').removeClass('activenav');
+        }else if(($(this).scrollTop() >= carouselHeight) && ($(this).scrollTop() < skillsHeight)){
+            $('#homenav').removeClass('activenav');
+            $('#skillsnav').addClass('activenav');
+            $('#worknav').removeClass('activenav');
+        }else if(($(this).scrollTop() >= skillsHeight) && ($(this).scrollTop() < workHeight)){
+            $('#worknav').addClass('activenav');
+            $('#skillsnav').removeClass('activenav');
+            $('#aboutnav').removeClass('activenav');
+        }else if(($(this).scrollTop() >= workHeight) && ($(this).scrollTop() < aboutHeight)){
+            $('#aboutnav').addClass('activenav');
+            $('#worknav').removeClass('activenav');
+            $('#skillsnav').removeClass('activenav');
+        }
+    });
+})
+
 $(document).ready(function() {
 	// Initialize Bootstrap Carousel and set slide scroll timer.
+ 
     $('.carousel').carousel({
    		interval: 6000
   	}) 
@@ -19,26 +51,27 @@ $(document).ready(function() {
 	var main = $('#main');
 	
 	// Make navbar stick to top of page after scrolling below carousel
-	$(window).scroll(function(){
-		// console.log($(this).scrollTop());
-		if($(this).scrollTop() > headerHeight){
-			mainNav.addClass(mainNavScroll);
-			main.addClass(mainPadding);
-		}else{
-			mainNav.removeClass(mainNavScroll);
-			main.removeClass(mainPadding);
-		}
-	});	
 	
+		$(window).scroll(function(){
+			// console.log($(this).scrollTop());
+			if($(this).scrollTop() > headerHeight){
+				mainNav.addClass(mainNavScroll);
+				main.addClass(mainPadding);
+			}else{
+				mainNav.removeClass(mainNavScroll);
+				main.removeClass(mainPadding);
+			}
+
+		});	
+	
+
 	// Add jQuery Easing effect for smooth transitions when navmenu is clicked.
 	$('.page-scroll a').bind('click', function(){
 		var $anchor=$(this);
 		$('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},2000,'easeInOutCirc');
 			event.preventDefault();
-		$('.carousel').carousel({
-   		interval: 4000
-  		}) 	
 	});
+
 	// Initialize Wow Animations
-	new WOW().init();
+	// new WOW().init();
 })
