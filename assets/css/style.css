@@ -14,7 +14,7 @@ body header .carousel-caption h1 {
 }
 /* line 13, ../compass/sass/style.scss */
 body header .carousel-caption a {
-  color: #fff;
+  color: #0067cc;
   text-shadow: 2px 2px 2px #393939;
   margin-right: 20px;
 }
@@ -111,7 +111,7 @@ body #main .container .row .col-xs-4 {
 /* line 104, ../compass/sass/style.scss */
 body #main .container .row .col-xs-4 i {
   margin-bottom: 5%;
-  color: blue;
+  color: #0067cc;
   background: #ccc;
 }
 /* line 109, ../compass/sass/style.scss */
