@@ -95,6 +95,7 @@ body{
 				margin-top: 4%;
 				margin-bottom: 4%;
 				height: 350px;
+				overflow: none;
 				.main-top{
 					
 				}
@@ -247,9 +248,14 @@ body{
 		margin:0px;
 	}
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:620px){
 	body #nav-bar li{
 		padding:24px 18px;
+		width: 15%;
+	}
+	.skills{
+		margin-top: 28% !important;
+		
 	}
 	body #main{
 		.container .row .col-md-12 h3{
