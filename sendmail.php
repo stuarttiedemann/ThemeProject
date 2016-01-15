@@ -2,9 +2,9 @@
       require_once('/usr/share/php/libphp-phpmailer/class.phpmailer.php');
       $mail = new PHPMailer(); // defaults to using php "mail()"
       $body = $_POST['newPost'];
-      $name = $_POST['name'];
+      
       $email = $_POST['email'];
-      $number = $_POST['number'];
+     
 
 
 
