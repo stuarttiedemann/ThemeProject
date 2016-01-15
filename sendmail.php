@@ -1,7 +1,7 @@
 <?php
       require_once('/usr/share/php/libphp-phpmailer/class.phpmailer.php');
       $mail = new PHPMailer(); // defaults to using php "mail()"
-      $body = 'this is an email';
+      $body = 'newPost';
       $mail->AddReplyTo("tiedemannstuart@gmail.com","Stuart Tiedemann");
       $mail->SetFrom('tiedemannstuart@gmail.com', 'From Stuart Tiedemann');
       $address = "tiedemannstuart@gmail.com";
@@ -11,7 +11,6 @@
       if(!$mail->Send()) {
       echo "Mailer Error: " . $mail->ErrorInfo;
       } else {
-      <!-- echo "Message sent!"; -->
       header('Location: /');
       }
 ?>
