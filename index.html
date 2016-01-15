@@ -158,11 +158,40 @@
 					<h2>Contact Info:</h2>
 					<div class="contact-list">
 						<p><a href="tel:18504604835"><i class="fa fa-phone-square fa-3x"></i> (850)-460-4835</a></p>
-						<p><a href="mailto:hireme@stuarttiedemann.com"><i class="fa fa-envelope fa-3x"></i> Email Me</a></p>
+						<p><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope fa-3x"></i> Email Me</a></p>
 						<p><a href="https://github.com/stuarttiedemann"><i class="fa fa-github-square fa-3x"></i>   GitHub</a></p>
 						<p><a href="https://www.linkedin.com/pub/stuart-tiedemann/a3/353/a31"><i class="fa fa-linkedin-square fa-3x"></i>   LinkedIn</a></p>
 					</div>
 				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Drop me a line!</h4>
+			      </div>
+			      <div class="modal-body">
+			        <form action="http://stuarttiedemann.com/mail.php" method="post">
+			            <div class="form-group">
+			            	<label>Name</label>
+			            	<input class="form-control" type="text" placeholder="Enter your name">
+			            	<label>Email Address</label>
+			            	<input class="form-control" type="email" placeholder="Enter your email address">
+			            	<label>Phone Number</label>
+			            	<input class="form-control" type="text" placeholder="Enter your phone number">
+			                <label for="new-post">Leave a Message</label>
+			                <textarea class="form-control" rows="5" name="newPost" id="new-post"></textarea>
+			            </div>
+			            <button type="submit" class="btn btn-primary">Email Me!</button>
+			        </form>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
 			</div>
 			
 		</div>
