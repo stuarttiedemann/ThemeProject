@@ -9,7 +9,7 @@
 
 
       $mail->AddReplyTo("tiedemannstuart@gmail.com","Stuart Tiedemann");
-      $mail->SetFrom('tiedemannstuart@gmail.com', 'From Stuart Tiedemann');
+      $mail->SetFrom($email, 'From Stuart Tiedemann');
       $address = "tiedemannstuart@gmail.com";
       $mail->AddAddress($address, "Stuart Tiedemann");
       $mail->Subject    = "PHPMailer Test Subject via mail(), basic";
