@@ -4,7 +4,7 @@
       $body = $_POST['newPost'];
       $name = $_POST['name'];
       $email = $_POST['email'];
-      $subject = $_POST['subject'];
+     
 
 
 
@@ -12,7 +12,7 @@
       $mail->SetFrom($email, $name);
       $address = "tiedemannstuart@gmail.com";
       $mail->AddAddress($address, "Stuart Tiedemann");
-      $mail->Subject($subject);
+      $mail->Subject    = "PHPMailer Test Subject via mail(), basic";
       $mail->MsgHTML($body);
       if(!$mail->Send()) {
       echo "Mailer Error: " . $mail->ErrorInfo;
