@@ -12,6 +12,6 @@
       echo "Mailer Error: " . $mail->ErrorInfo;
       } else {
       <!-- echo "Message sent!"; -->
-      header('Location: index.html');
+      header('Location: /');
       }
 ?>
