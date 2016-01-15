@@ -12,7 +12,7 @@
       $mail->SetFrom($email, $name);
       $address = "tiedemannstuart@gmail.com";
       $mail->AddAddress($address, "Stuart Tiedemann");
-      $mail->Subject    = $subject, basic";
+      $mail->Subject    = $subject;
       $mail->MsgHTML($body);
       if(!$mail->Send()) {
       echo "Mailer Error: " . $mail->ErrorInfo;
