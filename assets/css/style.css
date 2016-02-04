@@ -45,7 +45,7 @@ body header .carousel-caption h3:nth-child(2) {
 /* line 37, ../compass/sass/style.scss */
 body header .carousel-caption #logo {
   position: absolute;
-  top: -250px;
+  top: -350px;
   left: -20%;
 }
 /* line 42, ../compass/sass/style.scss */
@@ -311,7 +311,7 @@ body footer {
   margin: 0px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (min-width: 621px) and (max-width: 769px) {
   /* line 292, ../compass/sass/style.scss */
   .fa-5x {
     font-size: 3em !important;
@@ -367,7 +367,7 @@ body footer {
   #name {
     position: absolute !important;
     bottom: -45px !important;
-    right: -25% !important;
+    right: -45% !important;
     width: 100%;
   }
 
@@ -382,12 +382,84 @@ body footer {
   .skills {
     margin-top: 28% !important;
   }
-
+}
+@media screen and (max-width: 620px) {
   /* line 344, ../compass/sass/style.scss */
+  .fa-5x {
+    font-size: 3em !important;
+  }
+
+  /* line 347, ../compass/sass/style.scss */
+  p {
+    font-size: 14px !important;
+  }
+
+  /* line 350, ../compass/sass/style.scss */
+  body ul {
+    margin: 0 0 0 15px;
+    padding: 0;
+    width: 100%;
+  }
+
+  /* line 355, ../compass/sass/style.scss */
+  body #nav-bar li {
+    padding: 24px 4%;
+    width: 17%;
+    float: left;
+    font-size: 12px;
+  }
+  /* line 360, ../compass/sass/style.scss */
+  body #nav-bar li a {
+    font-size: 12px;
+  }
+
+  /* line 364, ../compass/sass/style.scss */
+  h1 {
+    font-size: 18px;
+  }
+
+  /* line 367, ../compass/sass/style.scss */
+  h2 {
+    font-size: 16px;
+  }
+
+  /* line 370, ../compass/sass/style.scss */
+  h3 {
+    font-size: 14px;
+  }
+
+  /* line 373, ../compass/sass/style.scss */
+  .carousel-caption #logo {
+    position: absolute !important;
+    top: -315px !important;
+    left: -16% !important;
+  }
+
+  /* line 379, ../compass/sass/style.scss */
+  #name {
+    position: absolute !important;
+    bottom: -45px !important;
+    right: -25% !important;
+    width: 100%;
+  }
+
+  /* line 385, ../compass/sass/style.scss */
+  #description {
+    position: absolute !important;
+    bottom: -75px !important;
+    right: -17% !important;
+  }
+
+  /* line 390, ../compass/sass/style.scss */
+  .skills {
+    margin-top: 28% !important;
+  }
+
+  /* line 396, ../compass/sass/style.scss */
   body #main .container .row .col-md-12 h3 {
     line-height: 1.5em;
   }
-  /* line 351, ../compass/sass/style.scss */
+  /* line 403, ../compass/sass/style.scss */
   body #main .container .row .col-xs-4 p {
     line-height: 1em;
   }

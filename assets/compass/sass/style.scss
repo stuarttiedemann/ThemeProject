@@ -36,7 +36,7 @@ body{
 			}
 			#logo{
 				position: absolute;
-				top:-250px;
+				top:-350px;
 				left: -20%;
 			}
 			#name{
@@ -287,6 +287,58 @@ body{
 		padding-top: 25px;
 		margin:0px;
 	}
+}
+@media screen and (min-width: 621px) and (max-width: 769px){
+	.fa-5x{
+		font-size: 3em !important;
+	}
+	p{
+			font-size: 14px !important;
+		}
+	body ul{
+		margin:0 0 0 15px;
+		padding: 0;
+		width: 100%;
+	}
+	body #nav-bar li{
+		padding:24px 4%;
+		width: 17%;
+		float: left;
+		font-size: 12px;
+		a{
+			font-size: 12px;
+		}
+	}
+	h1{
+		font-size: 18px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	h3{
+		font-size:14px;
+	}
+	.carousel-caption #logo{
+		position: absolute !important;
+		top:-315px !important;
+		left: -16% !important;
+		
+	}
+	#name{
+		position: absolute !important;
+		bottom:-45px !important;
+		right: -45% !important;
+		width: 100%;
+	}
+	#description{
+		position: absolute !important;
+		bottom:-75px !important;
+		right: -17% !important;
+	}
+	.skills{
+		margin-top: 28% !important;
+	}
+		
 }
 @media screen and (max-width:620px){
 	.fa-5x{
