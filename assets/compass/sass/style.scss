@@ -4,16 +4,18 @@
 	margin-right:0;
 }
 body{
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	width: 100%;
 	display: block;
 	box-sizing: border-box;
 	header{
+		position: relative;
 		.carousel-caption{
 			margin-bottom: 95px;
+			// position: relative;
 			h1{
-				font-size: 4em;
-				font-family: 'Ubuntu Condensed', sans-serif;
+				// font-size: 3em;
+				font-family: 'Syncopate', sans-serif;
 				text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
 			}
 			a{
@@ -31,6 +33,23 @@ body{
 
 			h3:nth-child(2) {
 			  animation-delay: 2s;
+			}
+			#logo{
+				position: absolute;
+				top:-250px;
+				left: -20%;
+			}
+			#name{
+				position: absolute;
+				bottom:-30px;
+				right: -26%;
+			}
+			#description{
+				position: absolute;
+				bottom:-75px;
+				right:-26%;
+				// font-size: 2em;
+				margin-top: 25px;
 			}
 		}
 	}
@@ -57,7 +76,7 @@ body{
 			}
 			a{
 				font-size: 16px;
-				font-family: 'Ubuntu Condensed', sans-serif;
+				font-family: 'Oswald', sans-serif;
 				text-decoration: none;
 				font-weight: bold;
 				text-transform: uppercase;
@@ -224,21 +243,30 @@ body{
 					}
 				}
 				.project-div{
-					opacity: .6;
+					opacity: .8;
+
 					.project-link{
 						text-decoration: none;
+						color:white;
 						.project-results{
 							border:2px solid #ccc;
+							background: linear-gradient(#198e58,  #a2b6bf);
 							overflow: hidden;
 							margin-bottom: 5%;
 							padding:5%;
-							span{
-								font-weight: bold;
-								font-size: 2em;
-							}
+							text-align: center;
 							height: 250px;
+							p{
+								font-weight: bold;
+								font-size:1.5em;
+								width: 100%;
+
+							}
+							
 							.work-img{
-								width:100%;
+								text-align: center;
+								width:100px;
+								height: 100px;
 								margin-top:20px;
 								margin-bottom: 20px;
 							}
@@ -261,12 +289,55 @@ body{
 	}
 }
 @media screen and (max-width:620px){
+	.fa-5x{
+		font-size: 3em !important;
+	}
+	p{
+			font-size: 14px !important;
+		}
+	body ul{
+		margin:0 0 0 15px;
+		padding: 0;
+		width: 100%;
+	}
 	body #nav-bar li{
-		padding:24px 18px;
-		width: 15%;
+		padding:24px 4%;
+		width: 17%;
+		float: left;
+		font-size: 12px;
+		a{
+			font-size: 12px;
+		}
+	}
+	h1{
+		font-size: 18px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	h3{
+		font-size:14px;
+	}
+	.carousel-caption #logo{
+		position: absolute !important;
+		top:-315px !important;
+		left: -16% !important;
+		
+	}
+	#name{
+		position: absolute !important;
+		bottom:-45px !important;
+		right: -25% !important;
+		width: 100%;
+	}
+	#description{
+		position: absolute !important;
+		bottom:-75px !important;
+		right: -17% !important;
 	}
 	.skills{
 		margin-top: 28% !important;
+
 		
 	}
 	body #main{
@@ -274,21 +345,21 @@ body{
 			line-height: 1.5em;
 		}
 		.container .row .col-xs-4 i{
-			font-size:3.4em;
+			
 			
 		}
 		.container .row .col-xs-4 p{
-			font-size:1.4em;
+			
 			line-height: 1em;
 		}
 	}
 	body #about #image-wrapper{
 		#about-content p{
-			line-height: 1.3em;
+			
 		}
 		.contact-list{
 			p{
-				font-size: 1em;
+				
 
 			}
 		}

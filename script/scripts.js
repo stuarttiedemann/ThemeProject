@@ -33,7 +33,7 @@ $(document).ready(function() {
 	// Initialize Bootstrap Carousel and set slide scroll timer.
  
     $('.carousel').carousel({
-   		interval: 6000
+   		interval: 60000
   	}) 
     // Fade in writing on first slide
   	var classCheck = $('#first-div').hasClass('active');

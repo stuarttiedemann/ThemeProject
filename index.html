@@ -5,7 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Stuart Tiedemann</title>
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'> -->
 	<!-- <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet" href="assets/css/font-awesome-animation.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -36,17 +38,18 @@
 			</div>
 			<div id="second-div" class="item">
 				<!-- Set the second background image using inline CSS below. -->
-				<div class="fill" style="background-image:url('img/laptop2.jpg');"></div>
+				<div class="fill" style="background-image:url('img/icelandsailboat.jpg');"></div>
 				<div class="carousel-caption">
-					<h1 class="animated fadeInDownBig main-callout2">Stuart Tiedemann</h1>
-					<h1 class="animated fadeInUpBig main-callout2">Web Developer and travel enthusiast.</h1>
-					<a href="https://github.com/stuarttiedemann"class="faa-pulse animated-hover faa-fast"><i class="animated fadeInUpBig fa fa-github fa-4x "></i></a>
-					<a href="https://www.linkedin.com/in/stuart-tiedemann-a31353a3" class="faa-pulse animated-hover faa-fast"><i class="animated fadeInUpBig fa fa-linkedin-square fa fa-4x"></i></a>
+					<img id="logo" src="img/stuartLogo-02.png" width="100px">
+					<h1 id="name" class=" main-callout2">Stuart Tiedemann</h1>
+					<h3 id="description" class=" main-callout2">Web Developer & travel enthusiast</h3>
+					<!-- <a href="https://github.com/stuarttiedemann"><i class="fa fa-github fa-2x "></i></a>
+					<a href="https://www.linkedin.com/in/stuart-tiedemann-a31353a3"><i class=" fa fa-linkedin-square fa fa-2x"></i></a> -->
 				</div>
 			</div>
 			<div id="third-div" class="item">
 				<!-- Set the third background image using inline CSS below. -->
-				<div class="fill" style="background-image:url('img/icelandsailboat.jpg');"></div>
+				<div class="fill" style="background-image:url('img/laptop2.jpg');"></div>
 				<div class="carousel-caption">
 					<h1 class="main-callout">Follow me on my next adventure</h1>
 				</div>
@@ -125,9 +128,9 @@
 			<div class="row">
 				<div class="project-div col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center" ng-repeat="project in projects">
 					<a href="{{project.link}}" target="blank" class="project-link">
-						<div class="project-results" data-toggle="tooltip" data-placement="left" title="{{project.tooltip}}">
-							<span>{{project.title}}</span>
-							<img class="work-img img-responsive" ng-src="{{project.image}}" width="245" height="245">
+						<div class="project-results text-center" data-toggle="tooltip" data-placement="left" title="{{project.tooltip}}">
+							<p>{{project.title}}</p>
+							<img class="work-img" ng-src="{{project.image}}" width="245" height="245">
 						</div>
 					</a>
 				</div>
@@ -194,7 +197,7 @@
 		</div>
 	</section>
 <footer class="text-center">
-	<p> &copy;2015 Stuart Tiedemann All Rights Reserved DraperDev.com</p>
+	<p> &copy;2015 Stuart Tiedemann All Rights Reserved DraperDev</p>
 </footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
