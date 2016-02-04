@@ -218,10 +218,8 @@ body #about #image-wrapper img {
 }
 /* line 203, ../compass/sass/style.scss */
 body #about #image-wrapper p {
-  font-size: 1.4em;
   font-weight: bold;
   margin: 0px;
-  line-height: 1.8em;
 }
 /* line 209, ../compass/sass/style.scss */
 body #about #image-wrapper h2 {
