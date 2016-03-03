@@ -8,18 +8,33 @@ body{
 	width: 100%;
 	display: block;
 	box-sizing: border-box;
+	color: #36454f;
+	background: white;
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Syncopate', sans-serif;
+	}
+	#page-top{
+		position: relative;
+		#logo{
+			position: absolute;
+			top:30px;
+			left:30px;
+			z-index: 100;
+		}
+	}
 	header{
 		position: relative;
 		.carousel-caption{
 			margin-bottom: 95px;
-			// position: relative;
+			
 			h1{
-				// font-size: 3em;
+				
 				font-family: 'Syncopate', sans-serif;
 				text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
+				letter-spacing: 2px;
 			}
 			a{
-				color:#fff;
+				color: #36454f;
 				text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
 				margin-right:20px;
 			}
@@ -34,14 +49,14 @@ body{
 			h3:nth-child(2) {
 			  animation-delay: 2s;
 			}
-			#logo{
-				position: absolute;
-				top:-350px;
-				left: -20%;
-			}
+			// #logo{
+			// 	position: absolute;
+			// 	top:-350px;
+			// 	left: -20%;
+			// }
 			#name{
 				position: absolute;
-				bottom:-30px;
+				bottom:-50px;
 				right: -26%;
 			}
 			#description{
@@ -49,7 +64,7 @@ body{
 				bottom:-75px;
 				right:-26%;
 				// font-size: 2em;
-				margin-top: 25px;
+				margin-top: 0px;
 			}
 		}
 	}
@@ -139,7 +154,7 @@ body{
 						background: #ccc;
 					}
 					p{
-						font-weight: bold;
+						// font-weight: bold;
 						font-size: 1.7em;
 					}
 				}	
@@ -202,7 +217,7 @@ body{
 			}
 			p{
 				
-				font-weight: bold;
+				// font-weight: bold;
 				margin:0px;
 				
 			}
@@ -240,6 +255,9 @@ body{
 					h2{
 						margin-top: 1%;
 						margin-bottom: 2%;
+					}
+					#recent-projects{
+						font-family: 'Oswald', sans-serif;
 					}
 				}
 				.project-div{
@@ -282,16 +300,16 @@ body{
 	footer{
 		height: 90px;
 		background: black;
-		color:#ccc;
+		color: #36454f;
 		font-size: 1.5em;
 		padding-top: 25px;
 		margin:0px;
 	}
 }
 @media screen and (min-width: 621px) and (max-width: 769px){
-	.fa-5x{
-		font-size: 3em !important;
-	}
+	// .fa-5x{
+	// 	font-size: 3em !important;
+	// }
 	p{
 			font-size: 14px !important;
 		}
@@ -310,7 +328,7 @@ body{
 		}
 	}
 	h1{
-		font-size: 18px;
+		font-size: 28px;
 	}
 	h2{
 		font-size: 16px;
@@ -327,7 +345,7 @@ body{
 	#name{
 		position: absolute !important;
 		bottom:-45px !important;
-		right: -45% !important;
+		right: -17% !important;
 		width: 100%;
 	}
 	#description{
@@ -379,13 +397,14 @@ body{
 	#name{
 		position: absolute !important;
 		bottom:-45px !important;
-		right: -25% !important;
+		right: -17% !important;
 		width: 100%;
 	}
 	#description{
 		position: absolute !important;
 		bottom:-75px !important;
 		right: -17% !important;
+		font-size: 1em !important;
 	}
 	.skills{
 		margin-top: 100px !important;
