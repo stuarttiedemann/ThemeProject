@@ -10,7 +10,7 @@ body{
 	box-sizing: border-box;
 	color: #36454f;
 	background: white;
-	h1, h2, h3, h4, h5, h6{
+	h1, h2, h3, h5, h6{
 		font-family: 'Syncopate', sans-serif;
 	}
 	#page-top{
@@ -30,7 +30,7 @@ body{
 			h1{
 				
 				font-family: 'Syncopate', sans-serif;
-				text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
+				// text-shadow: 2px 2px 2px rgba(57, 57, 57, 1);
 				letter-spacing: 2px;
 			}
 			a{
@@ -49,11 +49,7 @@ body{
 			h3:nth-child(2) {
 			  animation-delay: 2s;
 			}
-			// #logo{
-			// 	position: absolute;
-			// 	top:-350px;
-			// 	left: -20%;
-			// }
+			
 			#name{
 				position: absolute;
 				bottom:-50px;
@@ -93,7 +89,7 @@ body{
 				font-size: 16px;
 				font-family: 'Oswald', sans-serif;
 				text-decoration: none;
-				font-weight: bold;
+				// font-weight: bold;
 				text-transform: uppercase;
 				color:#fff;
 			}
