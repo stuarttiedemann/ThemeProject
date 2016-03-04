@@ -164,7 +164,7 @@ body #main .container .row .col-xs-4 i {
 }
 /* line 156, ../compass/sass/style.scss */
 body #main .container .row .col-xs-4 p {
-  font-size: 1.7em;
+  font-size: 1.2em;
 }
 /* line 161, ../compass/sass/style.scss */
 body #main .container .row #left-skills {
@@ -297,11 +297,11 @@ body #work .container .row .project-div .project-link .project-results {
 }
 /* line 277, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link .project-results p {
-  font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  letter-spacing: 2px;
   width: 100%;
 }
-/* line 284, ../compass/sass/style.scss */
+/* line 285, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link .project-results .work-img {
   text-align: center;
   width: 100px;
@@ -309,11 +309,11 @@ body #work .container .row .project-div .project-link .project-results .work-img
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 294, ../compass/sass/style.scss */
+/* line 295, ../compass/sass/style.scss */
 body #work .container .row .project-div:hover {
   opacity: 1;
 }
-/* line 300, ../compass/sass/style.scss */
+/* line 301, ../compass/sass/style.scss */
 body footer {
   height: 90px;
   background: black;
@@ -324,53 +324,53 @@ body footer {
 }
 
 @media screen and (min-width: 621px) and (max-width: 769px) {
-  /* line 313, ../compass/sass/style.scss */
+  /* line 314, ../compass/sass/style.scss */
   p {
     font-size: 14px !important;
   }
 
-  /* line 316, ../compass/sass/style.scss */
+  /* line 317, ../compass/sass/style.scss */
   body ul {
     margin: 0 0 0 15px;
     padding: 0;
     width: 100%;
   }
 
-  /* line 321, ../compass/sass/style.scss */
+  /* line 322, ../compass/sass/style.scss */
   body #nav-bar li {
     padding: 24px 4%;
     width: 17%;
     float: left;
     font-size: 12px;
   }
-  /* line 326, ../compass/sass/style.scss */
+  /* line 327, ../compass/sass/style.scss */
   body #nav-bar li a {
     font-size: 12px;
   }
 
-  /* line 330, ../compass/sass/style.scss */
+  /* line 331, ../compass/sass/style.scss */
   h1 {
     font-size: 28px;
   }
 
-  /* line 333, ../compass/sass/style.scss */
+  /* line 334, ../compass/sass/style.scss */
   h2 {
     font-size: 16px;
   }
 
-  /* line 336, ../compass/sass/style.scss */
+  /* line 337, ../compass/sass/style.scss */
   h3 {
     font-size: 14px;
   }
 
-  /* line 339, ../compass/sass/style.scss */
+  /* line 340, ../compass/sass/style.scss */
   .carousel-caption #logo {
     position: absolute !important;
     top: -315px !important;
     left: -16% !important;
   }
 
-  /* line 345, ../compass/sass/style.scss */
+  /* line 346, ../compass/sass/style.scss */
   #name {
     position: absolute !important;
     bottom: -45px !important;
@@ -378,71 +378,71 @@ body footer {
     width: 100%;
   }
 
-  /* line 351, ../compass/sass/style.scss */
+  /* line 352, ../compass/sass/style.scss */
   #description {
     position: absolute !important;
     bottom: -75px !important;
     right: -17% !important;
   }
 
-  /* line 356, ../compass/sass/style.scss */
+  /* line 357, ../compass/sass/style.scss */
   .skills {
     margin-top: 28% !important;
   }
 }
 @media screen and (max-width: 620px) {
-  /* line 362, ../compass/sass/style.scss */
+  /* line 363, ../compass/sass/style.scss */
   .fa-5x {
     font-size: 3em !important;
   }
 
-  /* line 365, ../compass/sass/style.scss */
+  /* line 366, ../compass/sass/style.scss */
   p {
     font-size: 14px !important;
   }
 
-  /* line 368, ../compass/sass/style.scss */
+  /* line 369, ../compass/sass/style.scss */
   body ul {
     margin: 0 0 0 15px;
     padding: 0;
     width: 100%;
   }
 
-  /* line 373, ../compass/sass/style.scss */
+  /* line 374, ../compass/sass/style.scss */
   body #nav-bar li {
     padding: 24px 4%;
     width: 17%;
     float: left;
     font-size: 12px;
   }
-  /* line 378, ../compass/sass/style.scss */
+  /* line 379, ../compass/sass/style.scss */
   body #nav-bar li a {
     font-size: 12px;
   }
 
-  /* line 382, ../compass/sass/style.scss */
+  /* line 383, ../compass/sass/style.scss */
   h1 {
     font-size: 18px;
   }
 
-  /* line 385, ../compass/sass/style.scss */
+  /* line 386, ../compass/sass/style.scss */
   h2 {
     font-size: 16px;
   }
 
-  /* line 388, ../compass/sass/style.scss */
+  /* line 389, ../compass/sass/style.scss */
   h3 {
     font-size: 14px;
   }
 
-  /* line 391, ../compass/sass/style.scss */
+  /* line 392, ../compass/sass/style.scss */
   .carousel-caption #logo {
     position: absolute !important;
     top: -315px !important;
     left: -16% !important;
   }
 
-  /* line 397, ../compass/sass/style.scss */
+  /* line 398, ../compass/sass/style.scss */
   #name {
     position: absolute !important;
     bottom: -45px !important;
@@ -450,24 +450,24 @@ body footer {
     width: 100%;
   }
 
-  /* line 403, ../compass/sass/style.scss */
+  /* line 404, ../compass/sass/style.scss */
   #description {
     position: absolute !important;
-    bottom: -75px !important;
+    bottom: -65px !important;
     right: -17% !important;
-    font-size: 1em !important;
+    font-size: .7em !important;
   }
 
-  /* line 409, ../compass/sass/style.scss */
+  /* line 410, ../compass/sass/style.scss */
   .skills {
     margin-top: 100px !important;
   }
 
-  /* line 415, ../compass/sass/style.scss */
+  /* line 416, ../compass/sass/style.scss */
   body #main .container .row .col-md-12 h3 {
     line-height: 1.5em;
   }
-  /* line 422, ../compass/sass/style.scss */
+  /* line 423, ../compass/sass/style.scss */
   body #main .container .row .col-xs-4 p {
     line-height: 1em;
   }

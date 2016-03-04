@@ -155,7 +155,7 @@ body{
 					}
 					p{
 						// font-weight: bold;
-						font-size: 1.7em;
+						font-size: 1.2em;
 					}
 				}	
 				#left-skills{
@@ -275,8 +275,9 @@ body{
 							text-align: center;
 							height: 250px;
 							p{
-								font-weight: bold;
-								font-size:1.5em;
+								// font-weight: bold;
+								font-size:1.2em;
+								letter-spacing: 2px;
 								width: 100%;
 
 							}
@@ -402,9 +403,9 @@ body{
 	}
 	#description{
 		position: absolute !important;
-		bottom:-75px !important;
+		bottom:-65px !important;
 		right: -17% !important;
-		font-size: 1em !important;
+		font-size: .7em !important;
 	}
 	.skills{
 		margin-top: 100px !important;
