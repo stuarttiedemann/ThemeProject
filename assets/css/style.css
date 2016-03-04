@@ -301,8 +301,8 @@ body #work .container .row .project-div .project-link .project-results p {
 /* line 281, ../compass/sass/style.scss */
 body #work .container .row .project-div .project-link .project-results .work-img {
   text-align: center;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
