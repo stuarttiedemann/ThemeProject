@@ -7,7 +7,6 @@ $(window).load(function(){
 	var workHeight = $('#work').height()+skillsHeight+firstPictureHeight;
 	var aboutHeight = $('#about').height()+workHeight+secondPictureHeight;
 
-	console.log(aboutHeight);
 	// Add active class to nav elements.
 	$(window).scroll(function(){
         if(($(this).scrollTop() >= 0) && ($(this).scrollTop() < carouselHeight)){

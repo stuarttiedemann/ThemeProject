@@ -4,7 +4,7 @@ body {
   padding-bottom: 0;
   font-family: 'Open Sans', Arial, Tahoma;
   color: #363636;
-  background-color: #aaa;
+  background-color: #5b7e95;
   font-size: 16px;
 }
 
@@ -77,7 +77,7 @@ header h1 {
 
 /* line 66, ../compass/sass/resume_style.scss */
 footer {
-  background-color: #000;
+  background-color: #5b7e95;
   min-height: 70px;
 }
 
@@ -107,7 +107,7 @@ footer p {
 
 /* line 86, ../compass/sass/resume_style.scss */
 .media {
-  background-color: #aaa;
+  background-color: #fff;
   padding: 15px;
   border-radius: 6px;
 }
