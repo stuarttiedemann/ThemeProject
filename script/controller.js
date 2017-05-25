@@ -1,9 +1,9 @@
 angular.module('myApp',[]).controller('myController',function($scope){
 	$scope.Project = function (title,image,link, tooltip){
 		this.title = title;
-		this.image = image
-		this.link = link,
-		this.tooltip = tooltip
+		this.image = image;
+		this.link = link;
+		this.tooltip = tooltip;
 	}
 
 	$scope.projects=[];
